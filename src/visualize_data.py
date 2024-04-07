@@ -16,7 +16,7 @@ def plot_rates(df):
     plt.show()
 
 def main():
-    df = load_data('transformed_covid_data.csv')
+    df = load_data('../data/processed/transformed_covid_data.csv')
     plot_rates(df)
 
 if __name__ == "__main__":
